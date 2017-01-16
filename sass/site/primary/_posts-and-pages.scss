@@ -1,3 +1,24 @@
+#page {
+  background-color: #fff;
+  -moz-box-shadow: 0px 0px 5px #a2a2a2;
+  -webkit-box-shadow: 0px 0px 5px #a2a2a2;
+  box-shadow: 0px 0px 5px #a2a2a2;
+  margin: 20px;
+  padding: 40px;
+  h2.entry-title {
+    font-weight: 300;
+    font-size: 48px;
+    margin-bottom: 0;
+    a {
+      color: #444;
+      text-decoration: none;
+    }
+  }
+  .entry-content {
+    margin: 0;
+  }
+}
+
 .sticky {
 	display: block;
 }
@@ -25,4 +46,8 @@
 .page-links {
 	clear: both;
 	margin: 0 0 1.5em;
+}
+
+.posted-on, .entry-footer {
+  display: none;
 }

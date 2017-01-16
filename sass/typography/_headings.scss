@@ -1,3 +1,20 @@
-h1, h2, h3, h4, h5, h6 {
+h1, h3, h5 {
+  font-family: 'Dancing Script', cursive;
 	clear: both;
+}
+h2, h4, h6 {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+h1.site-title {
+  font-size: 36px;
+  display: inline-block;
+  margin: 0;
+  a {
+    color: #444;
+    text-decoration: none;
+  }
+}
+p.site-description {
+  display: none;
+  margin: 0;
 }
