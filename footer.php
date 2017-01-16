@@ -18,7 +18,8 @@
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'fauverism' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'fauverism' ), 'WordPress' ); ?></a>
 			<span class="sep"> | </span>
 			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'fauverism' ), 'fauverism', '<a href="https://automattic.com/" rel="designer">Robert Fauver</a>' ); ?>
-		</div><!-- .site-info -->
+    </div><!-- .site-info -->
+    <!-- TODO: hardcode top nav -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
