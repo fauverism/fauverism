@@ -1,3 +1,13 @@
+fauverism wordpress theme
+
+TODO:
+- [ ] get inspiration from JSM's meta
+- [ ] do a dynamic footer with meta that is currently display: none
+- [ ] create the about page
+
+---
+
+
 [![Build Status](https://travis-ci.org/Automattic/_s.svg?branch=master)](https://travis-ci.org/Automattic/_s)
 
 _s
