@@ -2,8 +2,6 @@
 	clear: both;
 	display: block;
 	float: left;
-	width: 100%;
-
 	ul {
 		display: none;
 		list-style: none;
@@ -104,4 +102,24 @@
 		text-align: right;
 		width: 50%;
 	}
+}
+#primary-menu {
+  display: inline-block;
+  margin: 10px 0 0;
+}
+#site-navigation {
+  float: right;
+}
+#site-navigation #primary-menu ul.nav-menu li {
+  font-size: 18px;
+  margin: 0 0 0 8px;
+}
+#site-navigation #primary-menu ul.nav-menu li a {
+  color: #333;
+}
+#site-navigation #primary-menu ul.nav-menu li a:hover {
+  color: #999;
+}
+.widget-area, .site-footer {
+  display: none;
 }

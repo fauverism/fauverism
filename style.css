@@ -196,12 +196,13 @@ h1, h3, h5 {
 h2, h4, h6 {
   font-family: 'Roboto Condensed', sans-serif;
 }
-h1.site-title {
+h1.site-title, p.site-title {
+  font-family: 'Dancing Script', cursive;
   font-size: 36px;
   display: inline-block;
   margin: 0;
 }
-h1.site-title a {
+h1.site-title a, p.site-title a {
   color: #444;
   text-decoration: none;
 }
@@ -379,6 +380,7 @@ a:hover, a:active {
 .main-navigation {
   clear: both;
   display: block;
+  float: left;
 }
 .main-navigation ul {
   display: none;
@@ -549,12 +551,13 @@ a:hover, a:active {
   margin: 20px;
   padding: 40px;
 }
-#page h2.entry-title {
+#page h2.entry-title, #page h1.entry-title {
+  font-family: 'Roboto Condensed', sans-serif;
   font-weight: 300;
   font-size: 48px;
   margin-bottom: 0;
 }
-#page h2.entry-title a {
+#page h2.entry-title a, #page h1.entry-title a {
   color: #444;
   text-decoration: none;
 }

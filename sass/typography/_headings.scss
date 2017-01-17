@@ -5,7 +5,8 @@ h1, h3, h5 {
 h2, h4, h6 {
   font-family: 'Roboto Condensed', sans-serif;
 }
-h1.site-title {
+h1.site-title, p.site-title {
+  font-family: 'Dancing Script', cursive;
   font-size: 36px;
   display: inline-block;
   margin: 0;
