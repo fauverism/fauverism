@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Amiri:400,700|Dancing+Script|Roboto+Condensed:300,400');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto:300,500,900');
 /*!
  Theme Name: fauverism
  Theme URI: http://underscores.me/
@@ -190,15 +190,16 @@ body, button, input, select, textarea {
   line-height: 1.5;
 }
 h1, h3, h5 {
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Roboto', sans-serif;
   clear: both;
 }
 h2, h4, h6 {
   font-family: 'Roboto Condensed', sans-serif;
 }
 h1.site-title, p.site-title {
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Roboto', sans-serif;
   font-size: 36px;
+  font-weight: 300;
   display: inline-block;
   margin: 0;
 }
@@ -212,7 +213,7 @@ p.site-description {
 }
 p {
   margin-bottom: 1.5em;
-  font-family: 'Amiri', serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 24px;
 }
 li {
@@ -268,7 +269,6 @@ html {
 body {
   background: #fff;
   /* Fallback for when there is no custom background color defined. */
-  background-image: url(images/seigaiha.png);
 }
 blockquote, q {
   quotes: "" "";
@@ -317,6 +317,11 @@ table {
 }
 .site-branding {
   display: inline-block;
+}
+header#masthead {
+  background: rgba(244, 244, 244, 0.8);
+  border-bottom: 1px #ccc solid;
+  padding: 0 20px;
 }
 /*--------------------------------------------------------------
  # Forms
@@ -385,7 +390,7 @@ a:hover, a:active {
 .main-navigation ul {
   display: none;
   list-style: none;
-  margin: 0;
+  margin: 2px 0 0;
   padding-left: 0;
 }
 .main-navigation ul ul {
@@ -460,7 +465,7 @@ a:hover, a:active {
   color: #999;
 }
 .widget-area, .site-footer {
-  display: none;
+  background: black;
 }
 /*--------------------------------------------------------------
  # Accessibility
@@ -548,8 +553,6 @@ a:hover, a:active {
   -moz-box-shadow: 0px 0px 5px #a2a2a2;
   -webkit-box-shadow: 0px 0px 5px #a2a2a2;
   box-shadow: 0px 0px 5px #a2a2a2;
-  margin: 20px;
-  padding: 40px;
 }
 #page h2.entry-title, #page h1.entry-title {
   font-family: 'Roboto Condensed', sans-serif;

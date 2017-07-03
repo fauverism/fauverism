@@ -10,7 +10,6 @@ html {
 
 body {
 	background: $color__background-body; /* Fallback for when there is no custom background color defined. */
-  background-image: url(images/seigaiha.png);
 }
 
 blockquote, q {
@@ -44,4 +43,13 @@ figure {
 
 .site-branding {
   display: inline-block;
+  margin: 0 0 0 15px;
+}
+header#masthead {
+	background: rgba(244,244,244,0.4);
+	border-bottom: 1px #666 solid;
+	padding: 0 20px;
+}
+main {
+	padding: 0 20px;
 }

@@ -5,7 +5,7 @@
 	ul {
 		display: none;
 		list-style: none;
-		margin: 0;
+		margin: 2px 0 0;
 		padding-left: 0;
 
 		ul {
@@ -121,5 +121,13 @@
   color: #999;
 }
 .widget-area, .site-footer {
-  display: none;
+  background: black;
+  section {
+    display: inline-block;
+  }
+}
+#secondary {
+	#search-2 {
+		background: red;
+	}
 }
