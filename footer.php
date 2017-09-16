@@ -14,10 +14,32 @@
 	</div><!-- #content -->
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
+		<div class="social">
+			<a href="https://twitter.com/fauverism" target="_blank">
+				<div class="twitter">
+					Twitter
+				</div>
+			</a>
+			<a href="https://www.linkedin.com/in/robert-fauver-8018b17b/" target="_blank">
+			<div class="linkedin">
+				LinkedIn
+			</div>
+			</a>
+			<a href="https://github.com/fauverism" target="_blank">
+			<div class="github">
+				Github
+			</div>
+			</a>
+			<a href="https://stackoverflow.com/users/721040/fauverism" target="_blank">
+			<div class="stackoverflow">
+				StackOverflow
+			</div>
+			</a>
+		</div>
 		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'fauverism' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'fauverism' ), 'WordPress' ); ?></a>
+			<!-- <a href="<?php echo esc_url( __( 'https://wordpress.org/', 'fauverism' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'fauverism' ), 'WordPress' ); ?></a> -->
 			<span class="sep"> | </span>
-			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'fauverism' ), 'fauverism', '<a href="https://automattic.com/" rel="designer">Robert Fauver</a>' ); ?>
+			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'fauverism' ), 'fauverism', '' ); ?>
 			<span class="sep"> | </span>
 			<a href="mailto:robertfauver@gmail.com">robertfauver@gmail.com</a>
     </div><!-- .site-info -->
