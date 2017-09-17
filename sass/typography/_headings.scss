@@ -1,0 +1,23 @@
+h1, h3, h5, p, li {
+  font-family: 'Roboto', sans-serif;
+	clear: both;
+}
+h2, h4, h6 {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+h1.site-title, p.site-title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 36px;
+  font-weight: 300;
+  display: inline-block;
+  margin: 0;
+  //padding: 0 0 0 15px;
+  a {
+    color: #444;
+    text-decoration: none;
+  }
+}
+p.site-description {
+  display: none;
+  margin: 0;
+}

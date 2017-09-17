@@ -1,0 +1,164 @@
+body {
+  font-size: 1.8rem !important;
+}
+h1.site-title, p.site-title {
+  font-size: 2.3rem !important;
+  margin: 6px 15px 0 0 !important;
+}
+br {
+  display: none !important;
+}
+#site-navigation {
+  padding: 6px 15px 0 0;
+}
+#primary-menu {
+  margin: 0 !important;
+}
+aside#secondary {
+  display: none;
+  section {
+    ul {
+      margin: 0;
+      padding: 0;
+      li {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.6rem;
+        list-style-type: none;
+        a {
+          color: #ccc;
+        }
+      }
+    }
+  }
+}
+nav.posts-navigation {
+  bottom: -62px;
+  position: relative;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  width: 100%;
+  a {
+    color: #444;
+  }
+}
+footer.site-footer {
+  border-top: 1px #999 solid;
+  background: #f5f5f5;
+  border-top: 1px #999 solid;
+  width: 100%;
+  color: #999;
+  padding: 10px;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.3rem;
+  position: fixed;
+  bottom: -15px;
+  a {
+    color: #666;
+  }
+}
+
+//Posts Nav
+.posts-navigation {
+  position: absolute;
+  bottom: 40px;
+  background: #f1f1f1;
+  width: 100%;
+  color: #777;
+  padding: 10px;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.8rem;
+}
+
+//About
+.site-info {
+  display: inline-block;
+  height: 36px;
+  vertical-align: middle;
+}
+.social {
+  display: inline-block;  
+  margin: 0 6px;
+  padding: 0;
+  div {
+    border-radius: 20px;
+    height: 32px;
+    margin: 0 6px;
+    text-indent: -9999px;
+    width: 32px;
+    a {
+      margin: auto;
+    }
+  }
+  div:hover {
+    border: 1px solid black;
+  }
+  .twitter {
+    background: #999 url('http://robertfauver.com/wp-content/uploads/2017/05/Twitter_Logo_White_On_Image.gif') center center no-repeat;
+    background-size: contain;
+  }
+  .linkedin {
+    background: #888 url('http://robertfauver.com/wp-content/uploads/2017/05/In-White-66px-R.png') center center no-repeat;
+    background-size: 55%;
+  }
+  .github {
+    background: #777 url('http://robertfauver.com/wp-content/uploads/2017/05/GitHub-Mark-Light-64px.png') center center no-repeat;
+    background-size: 63%;
+  }
+  .stackoverflow {
+    background: #666 url('http://robertfauver.com/wp-content/uploads/2017/05/so-icon-white.png') center center no-repeat;
+    background-size: 92%;
+  }
+}
+
+//Top Nav
+.main-navigation li {
+  display: inline-block;
+  float: initial !important;
+  a {
+    color: #444;
+  }
+}
+
+//Contact Page
+#post-130 {
+
+}
+//Resume
+.resume {
+  background: tan url('http://robertfauver.com/wp-content/uploads/2017/06/seamless_paper_texture.png');
+  border: 1px solid #ccc;
+  margin: 40px 0;
+  padding: 40px;
+  h1, h2, h3, h4, h5, p, li, a, small {
+    font-family: 'Spectral', serif !important;
+  }
+  h1, h2, h3 {
+    margin: 0;
+  }
+  h2 {
+    margin: 20px 0 10px 0;
+  }
+  small {
+    float: right;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  ul.links {
+    li:first-child {
+      font-weight: 600;
+    }
+  }
+  .details, .tech {
+    ul {
+      li:first-child {
+        font-weight: 700;
+      }
+    }
+  }
+}
