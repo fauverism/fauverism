@@ -47,8 +47,9 @@ footer.site-footer {
   font-family: 'Roboto', sans-serif;
   font-size: 1.3rem;
   position: fixed;
-  bottom: -15px; }
+  bottom: 1px; }
   footer.site-footer a {
+    display: inline-block;
     color: #666; }
 
 .posts-navigation {
@@ -64,7 +65,7 @@ footer.site-footer {
 
 .site-info {
   display: inline-block;
-  height: 36px;
+  height: 1px;
   vertical-align: middle; }
 
 .social {
@@ -80,7 +81,7 @@ footer.site-footer {
     .social div a {
       margin: auto; }
   .social div:hover {
-    border: 2px solid black; }
+    border: 1px solid black; }
   .social .twitter {
     background: #999 url("http://robertfauver.com/wp-content/uploads/2017/05/Twitter_Logo_White_On_Image.gif") center center no-repeat;
     background-size: contain; }

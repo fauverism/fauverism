@@ -37,15 +37,25 @@
 			</a>
 		</div>
 		<div class="site-info">
-			<!-- <a href="<?php echo esc_url( __( 'https://wordpress.org/', 'fauverism' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'fauverism' ), 'WordPress' ); ?></a> -->
+			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'fauverism' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'fauverism' ), 'WordPress' ); ?></a>
 			<span class="sep"> | </span>
-			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'fauverism' ), 'fauverism', '' ); ?>
-			<span class="sep"> | </span>
+			<!-- <?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'fauverism' ), 'fauverism', '' ); ?>
+			<span class="sep"> | </span> -->
 			<a href="mailto:robertfauver@gmail.com">robertfauver@gmail.com</a>
     </div><!-- .site-info -->
     <!-- TODO: hardcode top nav -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
+<!-- Global Site Tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-8138255-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)};
+  gtag('js', new Date());
+
+  gtag('config', 'UA-8138255-2');
+</script>
+
 <script
   src="https://code.jquery.com/jquery-3.2.1.min.js"
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="

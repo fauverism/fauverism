@@ -53,7 +53,7 @@ footer.site-footer {
   font-family: 'Roboto', sans-serif;
   font-size: 1.3rem;
   position: fixed;
-  bottom: -15px;
+  bottom: 1px;
   a {
     color: #666;
   }
@@ -73,27 +73,18 @@ footer.site-footer {
 }
 
 //About
-.site-info {
-  display: inline-block;
-  height: 36px;
-  vertical-align: middle;
-}
 .social {
-  display: inline-block;  
-  margin: 0 6px;
+  margin: 0;
   padding: 0;
   div {
-    border-radius: 20px;
-    height: 32px;
-    margin: 0 6px;
+    border-radius: 150px;
+    height: 150px;
+    margin: 20px;
     text-indent: -9999px;
-    width: 32px;
+    width: 150px;
     a {
       margin: auto;
     }
-  }
-  div:hover {
-    border: 1px solid black;
   }
   .twitter {
     background: #999 url('http://robertfauver.com/wp-content/uploads/2017/05/Twitter_Logo_White_On_Image.gif') center center no-repeat;
@@ -101,15 +92,12 @@ footer.site-footer {
   }
   .linkedin {
     background: #888 url('http://robertfauver.com/wp-content/uploads/2017/05/In-White-66px-R.png') center center no-repeat;
-    background-size: 55%;
   }
   .github {
     background: #777 url('http://robertfauver.com/wp-content/uploads/2017/05/GitHub-Mark-Light-64px.png') center center no-repeat;
-    background-size: 63%;
   }
   .stackoverflow {
     background: #666 url('http://robertfauver.com/wp-content/uploads/2017/05/so-icon-white.png') center center no-repeat;
-    background-size: 92%;
   }
 }
 
