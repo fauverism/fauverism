@@ -1,0 +1,13 @@
+#site-navigation {
+  .main-navigation {
+    li {
+      a {
+        color: grey;
+      }
+      a:hover {
+        border-top: OrangeRed;
+        color: black;
+      }
+    }
+  }
+}

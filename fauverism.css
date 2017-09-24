@@ -1,3 +1,18 @@
+.main-navigation li a {
+	color: #999;
+	font-family: 'Roboto Condensed', sans-serif;
+	text-transform: uppercase;
+}
+.main-navigation li a:hover, li.current-menu-item {
+  border-top: 3px solid OrangeRed;
+	color: black !important;
+	margin: 0;
+	padding: 0;
+}
+li.current-menu-item a:hover {
+	border: none;
+}
+
 body {
   font-size: 1.8rem !important; }
 
@@ -9,22 +24,25 @@ br {
   display: none !important; }
 
 #site-navigation {
-  padding: 6px 15px 0 0; }
+  padding: 0 15px 0 0; }
 
 #primary-menu {
   margin: 0 !important; }
 
 aside#secondary {
   display: none; }
-  aside#secondary section ul {
-    margin: 0;
-    padding: 0; }
-    aside#secondary section ul li {
-      font-family: 'Roboto', sans-serif;
-      font-size: 1.6rem;
-      list-style-type: none; }
-      aside#secondary section ul li a {
-        color: #ccc; }
+
+aside#secondary section ul {
+  margin: 0;
+  padding: 0; }
+
+aside#secondary section ul li {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  list-style-type: none; }
+
+aside#secondary section ul li a {
+  color: #ccc; }
 
 nav.posts-navigation {
   bottom: -62px;
@@ -33,8 +51,9 @@ nav.posts-navigation {
   font-family: 'Roboto', sans-serif;
   font-size: 1.6rem;
   width: 100%; }
-  nav.posts-navigation a {
-    color: #444; }
+
+nav.posts-navigation a {
+  color: #444; }
 
 footer.site-footer {
   border-top: 1px #999 solid;
@@ -48,9 +67,10 @@ footer.site-footer {
   font-size: 1.3rem;
   position: fixed;
   bottom: 1px; }
-  footer.site-footer a {
-    display: inline-block;
-    color: #666; }
+
+footer.site-footer a {
+  display: inline-block;
+  color: #666; }
 
 .posts-navigation {
   position: absolute;
@@ -72,55 +92,72 @@ footer.site-footer {
   display: inline-block;
   margin: 0 6px;
   padding: 0; }
-  .social div {
-    border-radius: 20px;
-    height: 32px;
-    margin: 0 6px;
-    text-indent: -9999px;
-    width: 32px; }
-    .social div a {
-      margin: auto; }
-  .social div:hover {
-    border: 1px solid black; }
-  .social .twitter {
-    background: #999 url("http://robertfauver.com/wp-content/uploads/2017/05/Twitter_Logo_White_On_Image.gif") center center no-repeat;
-    background-size: contain; }
-  .social .linkedin {
-    background: #888 url("http://robertfauver.com/wp-content/uploads/2017/05/In-White-66px-R.png") center center no-repeat;
-    background-size: 55%; }
-  .social .github {
-    background: #777 url("http://robertfauver.com/wp-content/uploads/2017/05/GitHub-Mark-Light-64px.png") center center no-repeat;
-    background-size: 63%; }
-  .social .stackoverflow {
-    background: #666 url("http://robertfauver.com/wp-content/uploads/2017/05/so-icon-white.png") center center no-repeat;
-    background-size: 92%; }
+
+.social div {
+  border-radius: 20px;
+  height: 32px;
+  margin: 0 6px;
+  text-indent: -9999px;
+  width: 32px; }
+
+.social div a {
+  margin: auto; }
+
+.social div:hover {
+  border: 1px solid black; }
+
+.social .twitter {
+  background: #999 url("http://robertfauver.com/wp-content/uploads/2017/05/Twitter_Logo_White_On_Image.gif") center center no-repeat;
+  background-size: contain; }
+
+.social .linkedin {
+  background: #888 url("http://robertfauver.com/wp-content/uploads/2017/05/In-White-66px-R.png") center center no-repeat;
+  background-size: 55%; }
+
+.social .github {
+  background: #777 url("http://robertfauver.com/wp-content/uploads/2017/05/GitHub-Mark-Light-64px.png") center center no-repeat;
+  background-size: 63%; }
+
+.social .stackoverflow {
+  background: #666 url("http://robertfauver.com/wp-content/uploads/2017/05/so-icon-white.png") center center no-repeat;
+  background-size: 92%; }
 
 .main-navigation li {
   display: inline-block;
   float: initial !important; }
-  .main-navigation li a {
-    color: #444; }
+
+.main-navigation li a {
+  color: #444; }
 
 .resume {
   background: tan url("http://robertfauver.com/wp-content/uploads/2017/06/seamless_paper_texture.png");
   border: 1px solid #ccc;
   margin: 40px 0;
   padding: 40px; }
-  .resume h1, .resume h2, .resume h3, .resume h4, .resume h5, .resume p, .resume li, .resume a, .resume small {
-    font-family: 'Spectral', serif !important; }
-  .resume h1, .resume h2, .resume h3 {
-    margin: 0; }
-  .resume h2 {
-    margin: 20px 0 10px 0; }
-  .resume small {
-    float: right; }
-  .resume ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0; }
-  .resume ul.links li:first-child {
-    font-weight: 600; }
-  .resume .details ul li:first-child, .resume .tech ul li:first-child {
-    font-weight: 700; }
 
-/*# sourceMappingURL=fauverism.css.map */
+.resume h1, .resume h2, .resume h3, .resume h4, .resume h5, .resume p, .resume li, .resume a, .resume small {
+  font-family: 'Spectral', serif !important; }
+
+.resume h1, .resume h2, .resume h3 {
+  margin: 0; }
+
+.resume h2 {
+  margin: 20px 0 10px 0; }
+
+.resume small {
+  float: right; }
+
+.resume ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+
+.resume ul.links li:first-child {
+  font-weight: 600; }
+
+.resume .details ul li:first-child, .resume .tech ul li:first-child {
+  font-weight: 700; }
+
+	footer.site-footer {
+		background: rgba(255,255,255,0.7) !important;
+	}
