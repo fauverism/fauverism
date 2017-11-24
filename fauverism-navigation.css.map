@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGM,sCAAE;EACA,KAAK,EAAE,IAAI;AAEb,4CAAQ;EACN,UAAU,EAAE,SAAS;EACrB,KAAK,EAAE,KAAK",
+"sources": ["fauverism-navigation.scss"],
+"names": [],
+"file": "fauverism-navigation.css"
+}

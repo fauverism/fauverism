@@ -1,0 +1,7 @@
+#site-navigation .main-navigation li a {
+  color: grey; }
+#site-navigation .main-navigation li a:hover {
+  border-top: OrangeRed;
+  color: black; }
+
+/*# sourceMappingURL=fauverism-navigation.css.map */

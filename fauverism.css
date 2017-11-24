@@ -1,17 +1,9 @@
-.main-navigation li a {
-	color: #999;
-	font-family: 'Roboto Condensed', sans-serif;
-	text-transform: uppercase;
-}
-.main-navigation li a:hover, li.current-menu-item {
-  border-top: 3px solid OrangeRed;
-	color: black !important;
-	margin: 0;
-	padding: 0;
-}
-li.current-menu-item a:hover {
-	border: none;
-}
+@import url("https://fonts.googleapis.com/css?family=Spectral:200,300i,400,500,600,700,800");
+#site-navigation .main-navigation li a {
+  color: grey; }
+#site-navigation .main-navigation li a:hover {
+  border-top: OrangeRed;
+  color: black; }
 
 body {
   font-size: 1.8rem !important; }
@@ -24,7 +16,7 @@ br {
   display: none !important; }
 
 #site-navigation {
-  padding: 0 15px 0 0; }
+  padding: 0 15px 0 0 !important; }
 
 #primary-menu {
   margin: 0 !important; }
@@ -51,9 +43,6 @@ nav.posts-navigation {
   font-family: 'Roboto', sans-serif;
   font-size: 1.6rem;
   width: 100%; }
-
-nav.posts-navigation a {
-  color: #444; }
 
 footer.site-footer {
   border-top: 1px #999 solid;
@@ -122,13 +111,6 @@ footer.site-footer a {
   background: #666 url("http://robertfauver.com/wp-content/uploads/2017/05/so-icon-white.png") center center no-repeat;
   background-size: 92%; }
 
-.main-navigation li {
-  display: inline-block;
-  float: initial !important; }
-
-.main-navigation li a {
-  color: #444; }
-
 .resume {
   background: tan url("http://robertfauver.com/wp-content/uploads/2017/06/seamless_paper_texture.png");
   border: 1px solid #ccc;
@@ -158,6 +140,36 @@ footer.site-footer a {
 .resume .details ul li:first-child, .resume .tech ul li:first-child {
   font-weight: 700; }
 
-	footer.site-footer {
-		background: rgba(255,255,255,0.7) !important;
-	}
+.main-navigation li {
+  font-family: 'Roboto Condensed', sans-serif;
+  display: inline-block !important;
+  text-transform: uppercase;
+  float: none !important; }
+  .main-navigation li a {
+    color: grey; }
+  .main-navigation li a:hover {
+    border-top: OrangeRed;
+    color: black; }
+
+.intro {
+  font-family: 'Spectral', serif;
+  display: inline; }
+
+.robert-fauver {
+  background: url("images/robertfauver.png") no-repeat;
+  border-radius: 100px;
+  border: 1px #333 solid;
+  display: block;
+  float: right;
+  height: 200px;
+  width: 200px; }
+
+.robert-fauver:hover {
+  -webkit-animation: ease-out 2s ease-out;
+  animation: ease-out 2s ease-out;
+  -webkit-animation-iteration-count: ease-out 2s ease-out;
+  animation-iteration-count: ease-out 2s ease-out; }
+
+/*# sourceMappingURL=fauverism.css.map */
+
+/*# sourceMappingURL=fauverism.css.map */
