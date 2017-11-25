@@ -127,10 +127,10 @@ footer.site-footer {
     text-transform: uppercase;
     float: none !important;
     a {      
-      color: grey;
+      columns: #888888;
     }
     a:hover {
-      border-top: OrangeRed;
+      border-bottom: OrangeRed;
       color: black;
     }
   }
@@ -155,5 +155,28 @@ footer.site-footer {
   animation: ease-out 2s ease-out;
   -webkit-animation-iteration-count: ease-out 2s ease-out;
   animation-iteration-count: ease-out 2s ease-out;
+}
+
+//Portfolio
+.portfolio {
+  .row {
+    .col-sm-3 {
+      color: #f5f5f5;
+      display: block;
+      margin: 0 15px 0 0;
+      height: 260px;
+      padding: 8% 0;
+      text-align: center;
+    }
+    .comcast {
+      background: black;
+    }
+    .nbme {
+      background: rebeccapurple;
+    }
+    .bms {
+      background: navy;
+    }
+  }
 }
 /*# sourceMappingURL=fauverism.css.map */
