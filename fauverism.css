@@ -170,7 +170,7 @@ footer.site-footer a {
   -webkit-animation-iteration-count: ease-out 2s ease-out;
   animation-iteration-count: ease-out 2s ease-out; }
 
-.portfolio .row .col-sm-3 {
+.portfolio .row .item {
   color: #f5f5f5;
   display: block;
   margin: 0 15px 0 0;
