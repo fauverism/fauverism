@@ -112,33 +112,39 @@ footer.site-footer a {
   background-size: 92%; }
 
 .resume {
-  background: tan url("http://robertfauver.com/wp-content/uploads/2017/06/seamless_paper_texture.png");
+  background: FloralWhite url("http://robertfauver.com/wp-content/themes/fauverism/images/blizzard.png");
   border: 1px solid #ccc;
   margin: 40px 0;
   padding: 40px; }
-
-.resume h1, .resume h2, .resume h3, .resume h4, .resume h5, .resume p, .resume li, .resume a, .resume small {
-  font-family: 'Spectral', serif !important; }
-
-.resume h1, .resume h2, .resume h3 {
-  margin: 0; }
-
-.resume h2 {
-  margin: 20px 0 10px 0; }
-
-.resume small {
-  float: right; }
-
-.resume ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0; }
-
-.resume ul.links li:first-child {
-  font-weight: 600; }
-
-.resume .details ul li:first-child, .resume .tech ul li:first-child {
-  font-weight: 700; }
+  .resume h1, .resume h2, .resume h3, .resume h4, .resume h5, .resume p, .resume li, .resume a, .resume small {
+    font-family: 'Spectral', serif !important; }
+  .resume h1, .resume h2, .resume h3, .resume h4 {
+    margin: 0; }
+  .resume h4 {
+    float: right; }
+  .resume h2 {
+    margin: 20px 0 10px 0; }
+  .resume small {
+    float: right; }
+  .resume ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; }
+  .resume ul.links li:first-child {
+    font-weight: 600; }
+  .resume .details ul li:first-child, .resume ul li:first-child {
+    font-weight: 700; }
+  .resume .section-headline li {
+    border-bottom: 1px solid #333;
+    display: block;
+    font-weight: bold;
+    font-size: 2.3rem;
+    margin: 0 0 10px 0;
+    text-transform: uppercase; }
+  .resume .experience {
+    margin-top: 20px; }
+  .resume .tech li {
+    line-height: 22px; }
 
 .main-navigation li {
   font-family: 'Roboto Condensed', sans-serif;
@@ -178,9 +184,9 @@ footer.site-footer a {
   padding: 8% 0;
   text-align: center; }
 .portfolio .row .comcast {
-  background: black; }
+  background: black url(../images/comcast.png); }
 .portfolio .row .nbme {
-  background: rebeccapurple; }
+  background: rebeccapurple url(../images/nbme.png); }
 .portfolio .row .bms {
   background: navy; }
 

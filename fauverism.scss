@@ -98,26 +98,54 @@ footer.site-footer {
     background-size: 92%; }
 
 .resume {
-  background: tan url("http://robertfauver.com/wp-content/uploads/2017/06/seamless_paper_texture.png");
+  background: FloralWhite url("http://robertfauver.com/wp-content/themes/fauverism/images/blizzard.png");
   border: 1px solid #ccc;
   margin: 40px 0;
-  padding: 40px; }
-  .resume h1, .resume h2, .resume h3, .resume h4, .resume h5, .resume p, .resume li, .resume a, .resume small {
+  padding: 40px;
+  h1, h2, h3, h4, h5, p, li, a, small {
     font-family: 'Spectral', serif !important; }
-  .resume h1, .resume h2, .resume h3 {
-    margin: 0; }
-  .resume h2 {
-    margin: 20px 0 10px 0; }
-  .resume small {
-    float: right; }
-  .resume ul {
+  h1, h2, h3, h4 {
+    margin: 0;
+  }
+  h4 {
+    float: right;
+  }
+  h2 {
+    margin: 20px 0 10px 0;
+  }
+  small {
+    float: right;
+  }
+  ul {
     list-style-type: none;
     margin: 0;
-    padding: 0; }
-  .resume ul.links li:first-child {
-    font-weight: 600; }
-  .resume .details ul li:first-child, .resume .tech ul li:first-child {
-    font-weight: 700; }
+    padding: 0;
+  }
+  ul.links li:first-child {
+    font-weight: 600;
+  }
+  .details ul li:first-child, ul li:first-child {
+    font-weight: 700;
+  }
+  .section-headline {
+    li {
+      border-bottom: 1px solid #333;
+      display: block;
+      font-weight: bold;
+      font-size: 2.3rem;      
+      margin: 0 0 10px 0;
+      text-transform: uppercase;
+    }    
+  }
+  .experience {
+    margin-top: 20px;
+  }
+  .tech {
+    li {
+      line-height: 22px;
+    }
+  }
+}
 
 //Navigation
 .main-navigation {
@@ -169,10 +197,10 @@ footer.site-footer {
       text-align: center;
     }
     .comcast {
-      background: black;
+      background: black url(../images/comcast.png);
     }
     .nbme {
-      background: rebeccapurple;
+      background: rebeccapurple url(../images/nbme.png);
     }
     .bms {
       background: navy;
