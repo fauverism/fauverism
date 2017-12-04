@@ -2,8 +2,11 @@
 @import url('https://fonts.googleapis.com/css?family=Spectral:200,300i,400,500,600,700,800');
 
 body {
-  font-size: 1.8rem !important; }
+  font-size: 1.8rem !important;
+}
+a {
 
+}
 h1.site-title, p.site-title {
   font-size: 2.3rem !important;
   margin: 6px 15px 0 0 !important; }
@@ -107,6 +110,9 @@ footer.site-footer {
   h1, h2, h3, h4 {
     margin: 0;
   }
+  h3 {
+    margin: 0 0 10px 0;
+  }
   h4 {
     float: right;
   }
@@ -117,16 +123,23 @@ footer.site-footer {
     float: right;
   }
   ul {
-    list-style-type: none;
-    margin: 0;
+    //list-style-type: none;
+    margin: 0 0 0 20px;
     padding: 0;
   }
-  ul.links li:first-child {
-    font-weight: 600;
+  p, li {
+    line-height: 24px;
   }
-  .details ul li:first-child, ul li:first-child {
-    font-weight: 700;
+  p {
+      
   }
+  li {
+    font-weight: 200;
+    margin: 0 0 10px;
+  }
+  // ul.links li:first-child {
+  //   font-weight: 600;
+  // }
   .section-headline {
     li {
       border-bottom: 1px solid #333;
@@ -139,11 +152,6 @@ footer.site-footer {
   }
   .experience {
     margin-top: 20px;
-  }
-  .tech {
-    li {
-      line-height: 22px;
-    }
   }
 }
 

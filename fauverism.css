@@ -120,6 +120,8 @@ footer.site-footer a {
     font-family: 'Spectral', serif !important; }
   .resume h1, .resume h2, .resume h3, .resume h4 {
     margin: 0; }
+  .resume h3 {
+    margin: 0 0 10px 0; }
   .resume h4 {
     float: right; }
   .resume h2 {
@@ -127,13 +129,13 @@ footer.site-footer a {
   .resume small {
     float: right; }
   .resume ul {
-    list-style-type: none;
-    margin: 0;
+    margin: 0 0 0 20px;
     padding: 0; }
-  .resume ul.links li:first-child {
-    font-weight: 600; }
-  .resume .details ul li:first-child, .resume ul li:first-child {
-    font-weight: 700; }
+  .resume p, .resume li {
+    line-height: 24px; }
+  .resume li {
+    font-weight: 200;
+    margin: 0 0 10px; }
   .resume .section-headline li {
     border-bottom: 1px solid #333;
     display: block;
@@ -143,8 +145,6 @@ footer.site-footer a {
     text-transform: uppercase; }
   .resume .experience {
     margin-top: 20px; }
-  .resume .tech li {
-    line-height: 22px; }
 
 .main-navigation li {
   font-family: 'Roboto Condensed', sans-serif;
