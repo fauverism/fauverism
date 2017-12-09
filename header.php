@@ -72,10 +72,6 @@
               <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Menu', 'fauverism' ); ?></button>
               <?php wp_nav_menu( array( 'theme_location' => 'menu-1', 'menu_id' => 'primary-menu' ) ); ?>
             </ul>
-            <!--<ul class="nav navbar-nav navbar-right">
-              <li><a href="#"><span class="glyphicon glyphicon-user"></span>span> Sign Up</a></li>
-              <li><a href="#"><span class="glyphicon glyphicon-log-in"></span>span> Login</a></li>
-            </ul>-->
           </div>
         </div>
       </nav><!-- #site-navigation -->
