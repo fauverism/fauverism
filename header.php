@@ -51,30 +51,17 @@
         <?php
         endif; ?>
       </div><!-- .site-branding -->
-
-      <!--<nav id="site-navigation" class="navbar main-navigation" role="navigation">-->
-      <nav id="site-navigation" class="main-navigation" role="navigation">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span> 
-            </button>
-            <!--<a class="navbar-brand" href="#">Robert Fauver</a>-->
-          </div>
-          <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav navbar-nav">
-              <!--<li class="active"><a href="#">Home</a></li>
-              <li><a href="#">Page 1</a></li>
-              <li><a href="#">Page 2</a></li> 
-              <li><a href="#">Page 3</a></li> -->
-              <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Menu', 'fauverism' ); ?></button>
-              <?php wp_nav_menu( array( 'theme_location' => 'menu-1', 'menu_id' => 'primary-menu' ) ); ?>
-            </ul>
-          </div>
-        </div>
-      </nav><!-- #site-navigation -->
+      <nav class="top">
+        <ul class="menu">
+          <li><a href="http://robertfauver.com">About</a></li>
+          <li><a href="http://robertfauver.com/articles/">Articles</a></li>
+          <!--<li><a href="#" class="disabled">Portfolio</a></li>-->
+          <li><a href="http://robertfauver.com/contact/">Contact</a></li>
+        </ul>
+      <!--<ul class="mobile-menu">
+          <li><a href="#">Menu</nav>a></nav>
+        </nav> -->
+      </nav>
     </div><!-- .container -->
 	</header><!-- #masthead -->
 
