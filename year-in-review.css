@@ -1,0 +1,20 @@
+.byline {
+  display: none; }
+
+.year-in-review h3 {
+  font-size: 3rem; }
+.year-in-review .strike {
+  text-decoration: line-through; }
+.year-in-review ul {
+  margin: 0; }
+.year-in-review .twenty-seventeen, .year-in-review .twenty-eighteen {
+  border: 1px #333 solid;
+  display: block;
+  margin: 20px;
+  padding: 20px; }
+.year-in-review .twenty-seventeen {
+  background: lightgoldenrodyellow; }
+.year-in-review .twenty-eighteen {
+  background: lightblue; }
+
+/*# sourceMappingURL=year-in-review.css.map */

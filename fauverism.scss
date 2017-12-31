@@ -4,8 +4,8 @@
 body {
   font-size: 1.8rem !important;
 }
-a {
-
+h3 {
+  font-size: 2.3rem;
 }
 h1.site-title, p.site-title {
   font-size: 2.3rem !important;
@@ -100,6 +100,7 @@ footer.site-footer {
     background: #666 url("http://robertfauver.com/wp-content/uploads/2017/05/so-icon-white.png") center center no-repeat;
     background-size: 92%; }
 
+//Resume    
 .resume {
   background: FloralWhite url("http://robertfauver.com/wp-content/themes/fauverism/images/blizzard.png");
   border: 1px solid #ccc;
@@ -137,9 +138,10 @@ footer.site-footer {
     font-weight: 200;
     margin: 0 0 10px;
   }
-  // ul.links li:first-child {
-  //   font-weight: 600;
-  // }
+  .title {
+    border-bottom: 1px solid #333;
+    margin-bottom: 10px;
+  }
   .section-headline {
     li {
       border-bottom: 1px solid #333;
@@ -233,6 +235,29 @@ nav.top {
     .bms {
       background: navy;
     }
+  }
+}
+
+//Contact Form
+.wpcf7-form {
+  label {
+    display: inline-grid;
+  }
+  input[type="text"], input[type="email"], textarea {
+    color: rebeccapurple;
+    font-size: 1.8rem;
+    font-weight: normal;
+  }
+  input[type="text"] {
+    height: 30px;
+  }
+  textarea {
+    height: 210px;
+  }
+  .wpcf7-submit {
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding: 10px 20px;
   }
 }
 /*# sourceMappingURL=fauverism.css.map */

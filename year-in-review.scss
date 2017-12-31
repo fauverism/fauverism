@@ -1,0 +1,26 @@
+.byline {
+  display: none;
+}
+.year-in-review {
+  h3 {
+    font-size: 3rem;
+  }
+  .strike {
+    text-decoration: line-through;
+  }
+  ul {
+    margin: 0;
+  }
+  .twenty-seventeen, .twenty-eighteen {
+    border: 1px #333 solid;
+    display: block;
+    margin: 20px;
+    padding: 20px;
+  }
+  .twenty-seventeen {
+    background: lightgoldenrodyellow;
+  }
+  .twenty-eighteen {
+    background: lightblue;
+  }
+}
