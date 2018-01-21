@@ -34,12 +34,24 @@ aside#secondary {
         color: #ccc; }
 
 nav.posts-navigation {
-  bottom: -62px;
+  //bottom: -62px;
   position: relative;
   font-weight: 500;
   font-family: 'Roboto', sans-serif;
   font-size: 1.6rem;
-  width: 100%; }
+  width: 100%;
+  .nav-links {
+    .nav-previous, .nav-next {
+      a {
+        color: #444;
+      }
+      a:hover {
+        background: #444;
+        color: #999;
+      }
+    }
+  }
+}
 
 footer.site-footer {
   border-top: 1px #999 solid;
@@ -57,16 +69,17 @@ footer.site-footer {
     display: inline-block;
     color: #666; }
 
-.posts-navigation {
-  position: absolute;
-  bottom: 40px;
-  background: #f1f1f1;
-  width: 100%;
-  color: #777;
-  padding: 10px;
-  font-weight: 300;
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.8rem; }
+// .posts-navigation {
+//   position: absolute;
+//   bottom: 40px;
+//   background: #f1f1f1;
+//   width: 100%;
+//   color: #777;
+//   padding: 10px;
+//   font-weight: 300;
+//   font-family: 'Roboto', sans-serif;
+//   font-size: 1.8rem;
+// }
 
 .site-info {
   display: inline-block;
